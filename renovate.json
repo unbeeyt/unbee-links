@@ -9,5 +9,13 @@
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true
     }
-  ]
+  ],
+   "fileMatch": [
+    "\\.html?$"
+  ],
+  "versioning": "semver",
+  "digest": {
+    "enabled": false
+  },
+  "pinDigests": false
 }
