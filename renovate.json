@@ -9,8 +9,8 @@
       "matchUpdateTypes": ["major"],
       "dependencyDashboardApproval": true
     }
-  ],
-{
+  ]
+  {
   "fileMatch": [
     "\\.html?$"
   ],
@@ -19,6 +19,4 @@
     "enabled": false
   },
   "pinDigests": false
-}
-
 }
