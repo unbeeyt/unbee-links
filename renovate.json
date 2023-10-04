@@ -4,13 +4,11 @@
     "config:base"
   ],
   "prHourlyLimit": 3
-
-  "fileMatch": [
-    "\\.html?$"
-  ],
-  "versioning": "semver",
-  "digest": {
-    "enabled": false
-  },
-  "pinDigests": false
+  
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    }
+  ]
 }
