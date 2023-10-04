@@ -10,7 +10,8 @@
       "dependencyDashboardApproval": true
     }
   ],
-   "fileMatch": [
+{
+  "fileMatch": [
     "\\.html?$"
   ],
   "versioning": "semver",
@@ -18,4 +19,6 @@
     "enabled": false
   },
   "pinDigests": false
+}
+
 }
