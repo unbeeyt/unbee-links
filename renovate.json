@@ -10,20 +10,14 @@
       "dependencyDashboardApproval": true
     }
   ]
-  {
-  "extends": [
-    ":preserveSemverRanges",
-    "group:all",
-    "schedule:monthly",
-    ":maintainLockFilesMonthly"
-  ],
-  "lockFileMaintenance": {
-    "commitMessageAction": "Update",
-    "extends": [
-      "group:all"
-    ]
-  },
-  "separateMajorMinor": false
 }
-
+{
+  "fileMatch": [
+    "\\.html?$"
+  ],
+  "versioning": "semver",
+  "digest": {
+    "enabled": false
+  },
+  "pinDigests": false
 }
