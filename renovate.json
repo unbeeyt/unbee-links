@@ -12,12 +12,17 @@
   ]
 }
 {
-  "fileMatch": [
-    "\\.html?$"
+  "extends": [
+    ":preserveSemverRanges",
+    "group:all",
+    "schedule:monthly",
+    ":maintainLockFilesMonthly"
   ],
-  "versioning": "semver",
-  "digest": {
-    "enabled": false
+  "lockFileMaintenance": {
+    "commitMessageAction": "Update",
+    "extends": [
+      "group:all"
+    ]
   },
-  "pinDigests": false
+  "separateMajorMinor": false
 }
