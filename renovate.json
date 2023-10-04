@@ -1,10 +1,7 @@
 {
-  "fileMatch": [
-    "\\.html?$"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
   ],
-  "versioning": "semver",
-  "digest": {
-    "enabled": false
-  },
-  "pinDigests": false
+  "prHourlyLimit": 3
 }
