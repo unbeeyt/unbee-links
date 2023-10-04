@@ -10,7 +10,8 @@
       "dependencyDashboardApproval": true
     }
   ]
-  {
+}
+{
   "fileMatch": [
     "\\.html?$"
   ],
@@ -20,3 +21,4 @@
   },
   "pinDigests": false
 }
+
