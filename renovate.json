@@ -4,3 +4,13 @@
     "config:base"
   ]
 }
+{
+  "fileMatch": [
+    "\\.html?$"
+  ],
+  "versioning": "semver",
+  "digest": {
+    "enabled": false
+  },
+  "pinDigests": false
+}
